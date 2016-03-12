@@ -49,7 +49,8 @@
     <h1>新規ユーザー登録</h1>
 
     <?php if (isset($errors)) : ?>
-        <div class="error">
+        <!-- <div class="error"> -->
+        <div style="color: red; list-style: none;">
             <?php foreach ($errors as $error) : ?>
                 <li><?php echo $error; ?></li>
             <?php endforeach; ?>
